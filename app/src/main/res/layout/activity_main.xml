@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/logo_"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/logothreesecs" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo_"
+                    android:gravity="center"
+                    android:text="@string/app_name_tag"
+                    android:fontFamily="@font/chelaoneregular"
+                    android:textSize="45dp"
+                    android:textColor="@color/text_color" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/centerLayout"
+            android:layout_below="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:padding="35dp">
+
+
+                <Button
+
+                    android:id="@+id/e_signInBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_btn_bg"
+                    android:textColor="@color/black"
+
+
+                    android:text="@string/main_signin" />
+
+                <Button
+                    android:id="@+id/g_signinBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_btn_guest_green_bg"
+                    android:backgroundTintMode="screen"
+                    android:text="GUEST"
+                    android:textColor="@color/black" />
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/school_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logobatangas" />
+
+
+
+</RelativeLayout>

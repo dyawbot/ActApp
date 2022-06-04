@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/custo_btn_warning_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/custom_btn_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/custom_btn_guest_green_bg.xml" value="0.283984375" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/custom_edittext_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/i_custom_login_edittext.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/i_custom_password_edittext.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/i_user_focused.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/school_logo_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/v_password_focused.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/v_password_unfocused.xml" value="0.21875" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/v_sigout.xml" value="0.283984375" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/v_username_focused.xml" value="0.21875" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/drawable/v_username_unfocused.xml" value="0.37864583333333335" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout-w1240dp/activity_employee_login.xml" value="0.17001338688085676" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout-w936dp/activity_employee_login.xml" value="0.1984375" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_employee_health_declaration.xml" value="0.25" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_employee_home.xml" value="0.22" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_employee_login.xml" value="0.22" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_employee_success_declaration.xml" value="0.25" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_guest_about_visit.xml" value="0.271875" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_guest_personal_information.xml" value="0.22" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/mipmap-anydpi-v26/school_logo.xml" value="0.283984375" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Application/app/src/main/res/mipmap-anydpi-v26/school_logo_round.xml" value="0.21875" />
+        <entry key="..\:/jawarapaglinawan/Documents/BSU CLIENT/Professionals/Application/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

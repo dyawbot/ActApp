@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employee_login.EmployeeLoginActivity">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+            <ImageButton
+                android:id="@+id/imbtn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/v_back" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/logo_"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/logothreesecs"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo_"
+            android:fontFamily="@font/chelaoneregular"
+            android:gravity="center"
+            android:text="@string/app_name_tag"
+            android:textColor="@color/text_color"
+            android:textSize="45dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:endIconTint="@color/hint_dark">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/custom_edittext_bg"
+                android:drawableStart="@drawable/i_custom_login_edittext"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:hint="Username"
+                android:textColorHint="?android:textColorHint"
+                android:textColor="@color/black"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconMode="password_toggle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:endIconTint="@color/hint_dark"
+
+            >
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/custom_edittext_bg"
+                android:drawableStart="@drawable/i_custom_password_edittext"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="?android:textColorHint"
+                android:textColor="@color/black" />
+
+
+           />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/editTextTextPassword"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:background="@drawable/custom_edittext_bg"-->
+            <!--                android:drawableStart="@drawable/i_custom_password_edittext"-->
+            <!--                android:drawablePadding="10dp"-->
+            <!--                android:paddingLeft="10dp"-->
+            <!--                android:ems="10"-->
+            <!--                android:hint="Password"-->
+            <!--                android:inputType="textPassword"-->
+            <!--                android:textColorHint="?android:textColorHint"-->
+            <!--                android:textColor="@color/black" />-->
+
+
+
+        <CheckBox
+            android:id="@+id/forgetMeNot"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:hint="Keep me log in"
+            android:textSize="13dp"
+            android:buttonTint="@color/text_color"/>
+
+
+        <Button
+            android:id="@+id/e_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_btn_bg"
+            android:text="login" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/school_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logobatangas" />
+
+
+</RelativeLayout>
