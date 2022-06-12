@@ -35,7 +35,7 @@
 
 
         <RelativeLayout
-            android:id="@+id/header"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -56,21 +56,58 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/header"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="25dp"
+        android:layout_marginTop="-1dp"
         android:layout_marginRight="25dp"
+        android:layout_marginBottom="1dp"
         android:gravity="top"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:layout_marginTop="35dp"
+            android:text="Which office are you viiting today?"
+            android:textAlignment="center"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/s_offices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"
+            android:text="Which office are you visiting today?"
+            android:textAlignment="center"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_edittext_bg"
+            android:gravity="top"
+            android:maxLines="50"
+            android:padding="30dp"
+            android:textColor="?android:textColorPrimary" />
 
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/b_guest_personal_information"
+        android:id="@+id/b_guest_about_visit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reporting_person.Reports">
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="SYMPTOMS"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageButton
+                android:id="@+id/imbtn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/v_back" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="CAMPUS"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/s_campus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Employee Name"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/s_employee_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext_bg" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="What were her/his symptoms"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_fatigue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fatigue"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_aches_pain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aches and Pain"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_runnynose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runny Nose"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_fever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fever"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_drycough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dry Cough"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_shortnessofbreath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shortness of Breath"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_diarrhea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diarrhea"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_headache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Headache"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_loss_smell_taste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CheckBox"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/c_sorethroat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sore Throat"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/e_healthDeclaration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_btn_bg"
+        android:text="NEXT" />
+
+</RelativeLayout>

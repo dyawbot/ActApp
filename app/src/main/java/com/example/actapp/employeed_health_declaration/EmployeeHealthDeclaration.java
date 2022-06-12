@@ -53,6 +53,8 @@ public class EmployeeHealthDeclaration extends AppCompatActivity {
 
         }
 
+        Log.i("HELLO", String.valueOf(fromGuest));
+
 
 
 

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ActApp.NoActionBar">
         <activity
+            android:name=".reporting_person.Reports"
+            android:exported="true" />
+        <activity
             android:name=".guest_visit.GuestAboutVisit"
             android:exported="true"
             android:label="@string/title_activity_guest_about_visit" />
@@ -30,8 +33,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
