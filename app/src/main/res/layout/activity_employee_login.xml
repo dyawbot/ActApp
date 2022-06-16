@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rel1"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="25dp"
         android:gravity="center"
@@ -67,70 +67,67 @@
 
         <com.google.android.material.textfield.TextInputLayout
 
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:endIconTint="@color/hint_dark">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/e_username"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/custom_edittext_bg"
                 android:drawableStart="@drawable/i_custom_login_edittext"
                 android:drawablePadding="10dp"
-                android:paddingLeft="10dp"
                 android:ems="10"
                 android:hint="Username"
-                android:textColorHint="?android:textColorHint"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
                 android:textColor="@color/black"
-                android:inputType="textPersonName" />
+                android:textColorHint="?android:textColorHint" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
-
-
         <com.google.android.material.textfield.TextInputLayout
-            app:endIconMode="password_toggle"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
             app:endIconTint="@color/hint_dark"
 
             >
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/e_password"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:background="@drawable/custom_edittext_bg"
                 android:drawableStart="@drawable/i_custom_password_edittext"
                 android:drawablePadding="10dp"
-                android:paddingLeft="10dp"
                 android:ems="10"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:textColorHint="?android:textColorHint"
-                android:textColor="@color/black" />
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="?android:textColorHint" />
 
 
-           />
+            />
 
         </com.google.android.material.textfield.TextInputLayout>
 
-            <!--            <EditText-->
-            <!--                android:id="@+id/editTextTextPassword"-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="45dp"-->
-            <!--                android:background="@drawable/custom_edittext_bg"-->
-            <!--                android:drawableStart="@drawable/i_custom_password_edittext"-->
-            <!--                android:drawablePadding="10dp"-->
-            <!--                android:paddingLeft="10dp"-->
-            <!--                android:ems="10"-->
-            <!--                android:hint="Password"-->
-            <!--                android:inputType="textPassword"-->
-            <!--                android:textColorHint="?android:textColorHint"-->
-            <!--                android:textColor="@color/black" />-->
-
+        <!--            <EditText-->
+        <!--                android:id="@+id/editTextTextPassword"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="45dp"-->
+        <!--                android:background="@drawable/custom_edittext_bg"-->
+        <!--                android:drawableStart="@drawable/i_custom_password_edittext"-->
+        <!--                android:drawablePadding="10dp"-->
+        <!--                android:paddingLeft="10dp"-->
+        <!--                android:ems="10"-->
+        <!--                android:hint="Password"-->
+        <!--                android:inputType="textPassword"-->
+        <!--                android:textColorHint="?android:textColorHint"-->
+        <!--                android:textColor="@color/black" />-->
 
 
         <CheckBox
@@ -138,9 +135,9 @@
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_gravity="left"
+            android:buttonTint="@color/text_color"
             android:hint="Keep me log in"
-            android:textSize="13dp"
-            android:buttonTint="@color/text_color"/>
+            android:textSize="13dp" />
 
 
         <Button

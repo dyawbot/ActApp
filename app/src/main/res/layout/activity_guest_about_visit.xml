@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            android:text="Which office are you viiting today?"
+            android:text="Which office are you visiting today?"
             android:textAlignment="center"
             android:textColor="?android:textColorPrimary"
             android:textSize="15dp" />
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
             android:layout_marginBottom="20dp"
-            android:text="Which office are you visiting today?"
+            android:text="What is the purpose of your visit?"
             android:textAlignment="center"
             android:textColor="?android:textColorPrimary"
             android:textSize="15dp" />
@@ -104,17 +104,19 @@
             android:textColor="?android:textColorPrimary" />
 
 
+        <Button
+            android:id="@+id/b_guest_about_visit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom_btn_bg"
+            android:text="SUBMIT" />
+
     </LinearLayout>
 
-    <Button
-        android:id="@+id/b_guest_about_visit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="5dp"
-        android:background="@drawable/custom_btn_bg"
-        android:text="NEXT" />
+
 
 </RelativeLayout>
