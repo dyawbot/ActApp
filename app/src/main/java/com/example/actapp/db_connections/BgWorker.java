@@ -14,7 +14,6 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.concurrent.ExecutionException;
 
 public class BgWorker extends AsyncTask<String,Void,String> {
     AlertDialog alertDialog;
@@ -36,6 +35,9 @@ public class BgWorker extends AsyncTask<String,Void,String> {
         try
         {
             URL url = new URL(log_url);
+
+
+
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setRequestMethod("POST");
             httpURLConnection.setDoOutput(true);
@@ -66,6 +68,7 @@ public class BgWorker extends AsyncTask<String,Void,String> {
             bufferedReader.close();
             inputStream.close();
             httpURLConnection.disconnect();
+            Log.i("RES", result);
             return result;
         }catch (Exception io)
         {
@@ -76,20 +79,4 @@ public class BgWorker extends AsyncTask<String,Void,String> {
     }
 
 
-    @Override
-    protected void onPreExecute() {
-        alertDialog = new AlertDialog.Builder(context).create();
-        alertDialog.setTitle("Login Status");
-    }
-
-
-    @Override
-    protected void onPostExecute(String s) {
-        alertDialog.setMessage(s);
-        alertDialog.show();
-    }
-    @Override
-    protected void onProgressUpdate(Void... values) {
-        super.onProgressUpdate(values);
-    }
 }

@@ -97,7 +97,7 @@
             >
 
             <EditText
-                android:id="@+id/e_password"
+                android:id="@+id/e_passwords"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:background="@drawable/custom_edittext_bg"
