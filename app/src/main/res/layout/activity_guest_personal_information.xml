@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".guest_personal_info.GuestPersonalInformation">
+    tools:context=".guest_activity.guest_personal_info.GuestPersonalInformation">
 
     <RelativeLayout
         android:id="@+id/header"

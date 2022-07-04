@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context=".employeed_health_declaration.EmployeeHealthDeclaration">
+    tools:context=".employee_activity.employeed_health_declaration.EmployeeHealthDeclaration">
 
     <RelativeLayout
         android:id="@+id/header"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".employee_login.EmployeeLoginActivity">
+    tools:context=".employee_activity.employee_login.EmployeeLoginActivity">
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="wrap_content"
@@ -14,23 +14,26 @@
         android:layout_alignParentTop="true">
 
 
-            <ImageButton
-                android:id="@+id/imbtn_back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/transparent"
-                android:src="@drawable/v_back" />
+        <ImageButton
+            android:id="@+id/imbtn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/v_back" />
 
 
     </RelativeLayout>
 
+
     <RelativeLayout
         android:id="@+id/rel1"
-        android:layout_below="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
 
-        >
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/logo_"
             android:layout_width="250dp"
@@ -39,7 +42,7 @@
             android:layout_centerInParent="true"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/logothreesecs"/>
+            app:lottie_rawRes="@raw/my_logo" />
 
         <TextView
             android:layout_width="match_parent"
@@ -51,7 +54,6 @@
             android:textColor="@color/text_color"
             android:textSize="45dp" />
     </RelativeLayout>
-
 
     <LinearLayout
         android:id="@+id/l12"
@@ -130,14 +132,29 @@
         <!--                android:textColor="@color/black" />-->
 
 
-        <CheckBox
-            android:id="@+id/forgetMeNot"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_gravity="left"
-            android:buttonTint="@color/text_color"
-            android:hint="Keep me log in"
-            android:textSize="13dp" />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+
+           <CheckBox
+               android:id="@+id/forgetMeNot"
+               android:layout_width="wrap_content"
+               android:layout_height="48dp"
+               android:layout_alignParentStart="true"
+               android:buttonTint="@color/text_color"
+               android:hint="Keep me log in"
+               android:textSize="13dp" />
+
+           <TextView
+               android:id="@+id/t_register"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_centerInParent="true"
+               android:layout_marginRight="10dp"
+               android:text="Register" />
+       </RelativeLayout>
 
 
         <Button

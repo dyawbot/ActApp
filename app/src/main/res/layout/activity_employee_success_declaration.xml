@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".employee_success_declaration.EmployeeSuccessDeclaration">
+    tools:context=".employee_activity.employee_success_declaration.EmployeeSuccessDeclaration">
     <RelativeLayout
         android:id="@+id/rel1"
         android:layout_width="match_parent"
@@ -74,7 +74,7 @@
             android:textColor="?android:textColorPrimary"/>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/b_s_okay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
